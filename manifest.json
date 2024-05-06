@@ -1,0 +1,13 @@
+{
+    "name": "UrlInn",
+    "description": "An Extension used to create new short URL from long URL's",
+    "version": "1.0",
+    "manifest_version": 3,
+    "action":{
+        "default_popup":"templates/url_page.html",
+        "popup":["templates/all_urls.html","templates/base.html","templates/shorturl.html"]
+    },
+    "permissions": [
+        "storage"
+    ]  
+}
